@@ -1,5 +1,8 @@
+proc NimMain() {.importc.}
+
 template setup*(body) =
   proc setup {.exportc.} =
+    NimMain()
     body
 
 template loop*(body) =
