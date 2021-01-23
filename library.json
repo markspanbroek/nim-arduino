@@ -1,10 +1,7 @@
 {
   "name": "nim-arduino",
-  "version": "0.1.1",
-  "dependencies": [
-    {
-      "name": "nim-platformio",
-      "version": "https://github.com/markspanbroek/nim-platformio"
-    }
-  ]
+  "version": "0.2.0",
+  "dependencies": {
+    "nim-platformio": "https://github.com/markspanbroek/nim-platformio"
+  }
 }
