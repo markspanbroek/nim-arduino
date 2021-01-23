@@ -1,6 +1,7 @@
 {
   "name": "nim-arduino",
   "version": "0.2.0",
+  "license": "MIT",
   "dependencies": {
     "nim-platformio": "https://github.com/markspanbroek/nim-platformio"
   }
