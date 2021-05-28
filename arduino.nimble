@@ -1,4 +1,4 @@
-version = "0.2.0"
+version = "0.3.0"
 author = "nim-arduino authors"
 description = "Arduino bindings for Nim"
 license = "MIT"
