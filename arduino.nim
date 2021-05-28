@@ -1,12 +1,12 @@
 proc NimMain() {.importc.}
 
 template setup*(body) =
-  proc setup {.exportc.} =
+  proc setup {.exportcpp.} =
     NimMain()
     body
 
 template loop*(body) =
-  proc loop {.exportc.} =
+  proc loop {.exportcpp.} =
     body
 
 type
